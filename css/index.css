@@ -2,7 +2,7 @@
 
 :root{
   --azulClaro: #8affff;
-  --cinza: #c3cdd3;
+  --cinza: #F0FFFF;
   --laranja: #ff8300;
 }
 
@@ -28,18 +28,12 @@ h1{
   border-radius: 6px;
   margin: 2px;
   padding: 2px;
-  background: grey;
+  background: var(--laranja);
 }
 .homeInfo h4{
   text-align: center;
 }
 
-#pub-text{
-  width: 97%;
-  margin: 1px;
-  outline: none;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 #icon{
   width: 40px;
@@ -51,7 +45,7 @@ footer{
   flex-direction: row;
   position: fixed;
   bottom: 0%;
-  background: grey;
+  background: var(--laranja);
   margin: 0;
   padding: 2px;
   width: 98%;
@@ -60,7 +54,24 @@ footer{
 }
 
 .new-wee{
-  background: grey;
+  background: var(--laranja);
   border-radius: 6px;
   padding: 2px;
+  margin-top: 50px;
 }
+
+#pub-text{
+  outline: none;
+  margin-left: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid 3px yellow;
+  border-radius: 6px;
+  background: transparent
+}
+
+#pub{
+  display: flex;
+  flex-direction: row;
+  width: 98%;
+}
+
