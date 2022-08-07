@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body{
+  background: #000;
+  color: #fff;
+  font-style: 'Roboto Condensed', Arial;
+}
+
+#new-fan{
+  width: 70%;
+  margin-left: 13%;
+  background: #fff;
+  padding: 6px;
+  border: 0;
+  border-radius: 6px;
+}
+
+#new-fan:hover {
+  background: #0BD0DE;
+  color: #fff;
+  transition: 0.5s;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0%;
+  background: #fff;
+  margin: 0;
+  padding: 2px;
+  width: 98%;
+  height: 5%;
+  border-radius: 6px;
+}
+
+#icons-footer{
+  margin-left: 20%;
+}
+
+#icon{
+  width: 40px;
+  height: 40px;
+  padding: 0px 8px;
+}
