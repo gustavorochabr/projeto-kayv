@@ -4,6 +4,7 @@ body{
   background: #000;
   color: #fff;
   font-style: 'Roboto Condensed', Arial;
+  max-width: 100%;
 }
 
 #new-fan{
@@ -17,7 +18,7 @@ body{
 
 #new-fan:hover {
   background: #0BD0DE;
-  color: #fff;
+  color: #000;
   transition: 0.5s;
 }
 
@@ -35,11 +36,63 @@ footer{
 }
 
 #icons-footer{
-  margin-left: 20%;
+  margin-left: 25%;
 }
 
 #icon{
   width: 40px;
   height: 40px;
   padding: 0px 8px;
+}
+
+#fc{
+  
+  display: flex;
+  height: 10rem;
+  background: #000;
+  backdrop-filter: blur(25px) saturate(143%);
+
+  -webkit-backdrop-filter: blur(25px) saturate(143%);
+
+  background-color: rgba(17, 25, 40, 1);
+
+  border-radius: 12px;
+
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 0.5rem;
+  margin-top: 5px;
+}
+
+
+
+#ft-f{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 6px;
+  margin: 0;
+}
+
+#txt-f{
+  margin: 0 auto;
+  float: left;
+}
+
+#fc-w{
+
+  margin-left: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+#dsp{
+  margin-top: 2px;
+  opacity: 80%;
+}
+
+#author{
+  float: right;
+}
+
+#feedf{
+  margin-top: 7px;
 }

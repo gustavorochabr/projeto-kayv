@@ -25,10 +25,6 @@
 
 }
 
-
-
-
-
 h1{
   text-align: center;
 }
@@ -49,7 +45,7 @@ h1{
 #icon{
   width: 40px;
   height: 40px;
-  padding: 0 8px;
+  padding: 1px 8px;
 }
 
 footer{
@@ -66,7 +62,7 @@ footer{
 }
 
 #icons-footer{
-  margin-left: 20%;
+  margin-left: 25%;
 }
 
 
