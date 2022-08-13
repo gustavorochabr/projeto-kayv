@@ -93,3 +93,8 @@ a{
   outline: none;
   user-select: none;
 }
+
+#perfil-cfg{
+  border-radius: 10px;
+  margin-left: 4rem;
+}

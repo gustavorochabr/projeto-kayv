@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap');
+
+body{
+  background: #000;
+  color: #fff;
+  font-family: 'Open Sans', Arial;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Roboto Condensed';
+}
+
+button{
+  background: #fff;
+  color: #000;
+  border: 0;
+  border-radius: 6px;
+}
+
+#ops{
+  display: flex;
+}
+
+#links{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.options-cfg div#ctg details button{
+  height: 1.4rem;
+  margin-top: 1rem;
+  margin-left: 3px;
+}
+
+a{
+  color: skyblue;
+  font-family: sans-serif;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+#ctg{
+  margin-top: 1rem;
+}
+
+#ctg details div#ops {
+  margin-left: 1rem;
+}
+
+.holsilk-info{
+  backdrop-filter: blur(25px) saturate(143%);
+
+  -webkit-backdrop-filter: blur(25px) saturate(143%);
+
+  background-color: rgba(17, 25, 40, 1);
+
+  border-radius: 12px;
+
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  margin-top: 1rem;
+  padding: 5px;
+  text-align: center;
+}
