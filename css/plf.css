@@ -1,0 +1,64 @@
+body{
+  background: #000;
+  color: #fff;
+  max-width: 100%;
+}
+
+#ft-p{
+  width: 4rem;
+  border-radius: 10rem;
+}
+
+.info-bsc{
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+  margin-bottom: 20px;
+}
+
+#folowers{
+  display: flex;
+  flex-direction: row;
+}
+
+#seguindo{
+  margin-left: 5px;
+}
+
+
+#types-pubows button{
+  background: transparent;
+  color: #fff;
+  outline: none;
+  border: 0;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  border-bottom: 2px solid #fff;
+  border-radius: 6px;
+}
+
+#types-pubows button:hover{
+  background: #fff;
+  color: #000;
+}
+
+#msg-send{
+  text-align: center;
+}
+
+#msg-send button{
+  background: #fff;
+  color: #000;
+  border: 0;
+  outline: none;
+  border-radius: 3px;
+}
+
+.nm-p h3{
+  margin-left: 5px;
+}
+
+#dsp-pl{
+  opacity: 80%;
+  max-width: 80%;
+}
